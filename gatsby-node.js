@@ -19,7 +19,9 @@ module.exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   //dynamically create pages here
   //get path to template
-  const blogTemplate = path.resolve("./src/templates/blog.js")
+  const blogTemplate = path.resolve("./src/templates/blog.js");
+  const howItWorksTemplate = path.resolve("./src/templates/howitworks.js");
+
   //get slugs
   const response = await graphql(`
     query {
@@ -35,6 +37,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
     }
   `)
   //create new pages with unique slug
+  console.log(response.data.allMarkdownRemark.edges);
   response.data.allMarkdownRemark.edges.forEach(edge => {
     createPage({
       component: blogTemplate,

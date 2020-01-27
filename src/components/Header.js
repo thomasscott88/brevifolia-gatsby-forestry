@@ -17,6 +17,20 @@ export default function Header(props) {
           <h1>{props.title}</h1>
         </Link>
         <div>
+        <h1>
+            <Link
+              to={
+                props.page === 'howitworks'
+                  ? "/"
+                  : "/howitworks"
+              }
+              activeClassName={headerStyles.navItemActive}
+            >
+              {props.page === 'howitworks'
+                ? "close"
+                : "howitworks"}
+            </Link>
+          </h1>
           <h1>
             <Link
               to={

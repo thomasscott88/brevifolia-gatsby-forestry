@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Content
 - type: document
-  path: content/data/howitworks.yaml
+  path: content/data/howitworks.json
   label: How it works
 - type: directory
   path: content/posts
