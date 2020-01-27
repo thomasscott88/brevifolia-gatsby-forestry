@@ -1,4 +1,14 @@
 ---
 label: How it works
 hide_body: true
-fields: []
+fields:
+- name: header
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Header
+  description: Header Image and Text
