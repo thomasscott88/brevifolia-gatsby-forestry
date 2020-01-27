@@ -1,5 +1,5 @@
 ---
-title: On the Geneology of Morals
+title: TOMOn the Geneology of Morals
 date: '2019-08-16T22:37:31.000Z'
 hero_image: ../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg
 author: Friedrich Nietzsche
