@@ -1,6 +1,6 @@
 ---
-title: Hey there
-date: 2019-08-16T22:37:31.000Z
+title: Hey there my name is Tom
+date: 2019-08-16T22:37:31.000+00:00
 hero_image: "../images/jj-ying-7JX0-bfiuxQ-unsplash.jpg"
 author: Friedrich Nietzsche
 
